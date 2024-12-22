@@ -1,0 +1,79 @@
+/* Warna latar belakang sidebar */
+.bg-dongker {
+    background-color: #001f54 !important;
+}
+
+/* Sidebar styling */
+.sidebar {
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #001f54;
+    color: white;
+    overflow-y: auto;
+    padding-top: 90px;
+}
+
+.sidebar a {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+}
+
+.sidebar a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+}
+
+/* Konten utama */
+main.content {
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.card {
+    margin: 20px 0;
+}
+
+.card-header {
+    background-color: transparent !important;
+    color: #001f54 !important;
+    text-align: center;
+    border: none;
+}
+
+.btn-custom {
+    background-color: #001f54;
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: #003080;
+}
+
+/* Teks "Selamat Datang" dan "Portal Akademik" */
+.welcome-text {
+    color: #001f54; /* Biru Dongker */
+}
+
+.portal-text {
+    font-size: 1.5rem; /* Ukuran font sedikit lebih besar */
+    color: #333; /* Warna lebih gelap untuk kontras */
+}
+
+/* Grid untuk card */
+.card-deck {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 kolom */
+    gap: 30px;
+    justify-items: center;
+}
+
+/* Teks bold biru dongker */
+.text-bold-blue {
+    font-weight: bold;
+    color: #001f54; /* Biru Dongker */
+}
